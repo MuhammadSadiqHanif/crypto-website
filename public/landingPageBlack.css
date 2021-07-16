@@ -7,35 +7,41 @@
     margin-bottom: 0px;
     font-family: Poppins;
 }
-body {
+.DarkTheme {
     background-color: #161616 !important;
+    /* .coinMainDiv {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+   }
+    */
 }
-.navbar {
+.DarkTheme .navbar {
     background-color: transparent;
     color: white;
 }
-.navbar-brand img {
+.DarkTheme .navbar-brand img {
     width: 202.2px;
     height: 73.17px;
 }
-.navbar-text {
+.DarkTheme .navbar-text {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: flex-end;
 }
-
-.navbar .nav-link {
+.DarkTheme .navbar .nav-link {
     font-family: Poppins;
     font-weight: 500;
     font-size: 14px;
     text-align: left;
     color: #fff !important;
 }
-.navbar .nav-item {
+.DarkTheme .navbar .nav-item {
     margin-left: 64px;
 }
-.Login .nav-link {
+.DarkTheme .Login .nav-link {
     width: 180px;
     height: 41px;
     border-radius: 20.5px;
@@ -53,10 +59,10 @@ body {
     text-align: center;
     color: #fff !important;
 }
-.SignUp {
+.DarkTheme .SignUp {
     margin-left: 23px !important;
 }
-.SignUp .nav-link {
+.DarkTheme .SignUp .nav-link {
     width: 180px;
     height: 41px;
     border-radius: 20.5px;
@@ -68,17 +74,17 @@ body {
     text-align: center;
     color: #fff;
 }
-.containDiv {
+.DarkTheme .containDiv {
     max-width: 1408px;
     width: 100%;
 }
-.section1 {
+.DarkTheme .section1 {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 25px;
 }
-.section1 .sec1Text h2 {
+.DarkTheme .section1 .sec1Text h2 {
     font-family: Poppins;
     font-weight: bold;
     font-size: 60px;
@@ -86,22 +92,23 @@ body {
     text-align: left;
     color: #fff;
 }
-.section1 .innerSection {
+.DarkTheme .section1 .innerSection {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.section1 .sec1Text p {
+.DarkTheme .section1 .sec1Text p {
     font-family: Poppins;
     font-weight: normal;
     font-size: 16px;
-    /* line-height: 12px; */
+    /* line-height: 12px;
+    */
     text-align: left;
     color: #fff;
     opacity: 0.55;
     margin-top: 32px;
 }
-.section1 .sec1Text button {
+.DarkTheme .section1 .sec1Text button {
     width: 233px;
     height: 53px;
     border-radius: 26.5px;
@@ -120,13 +127,13 @@ body {
     color: #fff;
     border: none;
 }
-.section2 {
+.DarkTheme .section2 {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 158px;
 }
-.section2 .innerSection .smallheading {
+.DarkTheme .section2 .innerSection .smallheading {
     font-family: Poppins;
     font-weight: 500;
     font-size: 20px;
@@ -134,14 +141,14 @@ body {
     color: #fff;
     opacity: 0.55;
 }
-.section2 h2 {
+.DarkTheme .section2 h2 {
     font-family: Poppins;
     font-weight: bold;
     font-size: 60px;
     text-align: center;
     color: #fff;
 }
-.section2 .sec2Des {
+.DarkTheme .section2 .sec2Des {
     font-family: Poppins;
     font-weight: normal;
     font-size: 30px;
@@ -149,23 +156,18 @@ body {
     color: #fff;
     opacity: 0.55;
 }
-.coinMainDiv {
+.DarkTheme .coinMainDiv {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 158px;
 }
-.coinDiv {
+.DarkTheme .coinDiv {
     width: 16%;
-    /* padding: 0px 30px; */
+    /* padding: 0px 30px;
+    */
 }
-/* .coinMainDiv {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: left;
-} */
-.coin h3 {
+.DarkTheme .coin h3 {
     font-family: Poppins;
     font-weight: bold;
     font-size: 60px;
@@ -174,16 +176,16 @@ body {
     color: #fff;
     margin-bottom: 11px;
 }
-.coinDetaol {
+.DarkTheme .coinDetaol {
     display: flex;
     justify-content: space-between;
 }
-.coin img {
+.DarkTheme .coin img {
     width: 118px;
     height: 118px;
     margin-bottom: 17px;
 }
-.coinDetaol .detail p {
+.DarkTheme .coinDetaol .detail p {
     font-family: Poppins;
     font-weight: 500;
     font-size: 21px;
@@ -192,13 +194,13 @@ body {
     color: #fff;
     opacity: 0.53;
 }
-.coinDetaol .price {
+.DarkTheme .coinDetaol .price {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.coinDetaol .price p {
+.DarkTheme .coinDetaol .price p {
     font-family: Poppins;
     font-weight: 500;
     font-size: 19px;
@@ -207,13 +209,13 @@ body {
     color: #fff;
     margin-bottom: 5px !important;
 }
-.centerButtonDiv {
+.DarkTheme .centerButtonDiv {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 63px;
 }
-.centerButtonDiv button {
+.DarkTheme .centerButtonDiv button {
     width: 227px;
     height: 45px;
     border-radius: 22.5px;
@@ -232,18 +234,18 @@ body {
     color: #fff;
     border: none;
 }
-.section3 {
+.DarkTheme .section3 {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 146.1px;
 }
-.section3 .innerSection {
+.DarkTheme .section3 .innerSection {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.section3 .sec3Text h5 {
+.DarkTheme .section3 .sec3Text h5 {
     font-family: Poppins;
     font-weight: 500;
     font-size: 25px;
@@ -251,21 +253,21 @@ body {
     opacity: 0.39;
     text-align: left;
 }
-.section3 .sec3Text h2 {
+.DarkTheme .section3 .sec3Text h2 {
     font-family: Poppins;
     font-weight: bold;
     font-size: 60px;
     text-align: left;
     color: #fff;
 }
-.section3 .sec3Text p {
+.DarkTheme .section3 .sec3Text p {
     font-family: Poppins;
     font-weight: normal;
     font-size: 20px;
     text-align: left;
     color: #fff;
 }
-.section3 .sec3Text button {
+.DarkTheme .section3 .sec3Text button {
     width: 293px;
     height: 55px;
     border-radius: 27.5px;
@@ -284,19 +286,18 @@ body {
     color: #fff;
     border: none;
 }
-
-.section4 {
+.DarkTheme .section4 {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 146.1px;
 }
-.section4 .innerSection {
+.DarkTheme .section4 .innerSection {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.section4 .sec4Text h5 {
+.DarkTheme .section4 .sec4Text h5 {
     font-family: Poppins;
     font-weight: 500;
     font-size: 25px;
@@ -304,21 +305,21 @@ body {
     opacity: 0.39;
     text-align: left;
 }
-.section4 .sec4Text h2 {
+.DarkTheme .section4 .sec4Text h2 {
     font-family: Poppins;
     font-weight: bold;
     font-size: 60px;
     text-align: left;
     color: #fff;
 }
-.section4 .sec4Text p {
+.DarkTheme .section4 .sec4Text p {
     font-family: Poppins;
     font-weight: bold;
     font-size: 20px;
     text-align: left;
     color: #fff;
 }
-.section4 .sec4Text button {
+.DarkTheme .section4 .sec4Text button {
     width: 293px;
     height: 55px;
     border-radius: 27.5px;
@@ -337,29 +338,28 @@ body {
     color: #fff;
     border: none;
 }
-.section4 .imageDiv {
+.DarkTheme .section4 .imageDiv {
     padding: 0px 13px;
 }
-
-.section5 {
+.DarkTheme .section5 {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 60px;
 }
-.section5 .innerSection {
+.DarkTheme .section5 .innerSection {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.section5 .percents {
+.DarkTheme .section5 .percents {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-right: 8px;
 }
-.section5 .percents .up {
+.DarkTheme .section5 .percents .up {
     font-family: Poppins;
     font-weight: 500;
     font-size: 25px;
@@ -367,7 +367,7 @@ body {
     color: #fff;
     margin-bottom: 15px;
 }
-.section5 .percents h2 {
+.DarkTheme .section5 .percents h2 {
     font-family: Poppins;
     font-weight: bold;
     font-size: 90px;
@@ -375,27 +375,26 @@ body {
     margin-bottom: 14px;
     color: #fff;
 }
-.section5 .percents .cryptos {
+.DarkTheme .section5 .percents .cryptos {
     font-family: Poppins;
     font-weight: 500;
     font-size: 25px;
     text-align: left;
     color: #fff;
 }
-
-.section5 .percentsDiv {
+.DarkTheme .section5 .percentsDiv {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.section6 {
-    background-color: #000000;
+.DarkTheme .section6 {
+    background-color: #000;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 151px;
 }
-.section6 .sec6Links {
+.DarkTheme .section6 .sec6Links {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -403,7 +402,7 @@ body {
     flex-direction: column;
     padding: 150px 10px 182px;
 }
-.section6 .sec6Links .rowDiv {
+.DarkTheme .section6 .sec6Links .rowDiv {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -411,37 +410,37 @@ body {
     flex-direction: row;
     width: 100%;
 }
-.section6 .sec6Links .linkDiv {
+.DarkTheme .section6 .sec6Links .linkDiv {
     width: 50%;
 }
-.section6 .sec6Links .linkDiv h5,
-.section6 .sec6Links .linkDiv p {
+.DarkTheme .section6 .sec6Links .linkDiv h5,
+.DarkTheme .section6 .sec6Links .linkDiv p {
     font-family: Poppins;
-    /* font-weight: bold; */
+    /* font-weight: bold;
+    */
     font-size: 30px;
     text-align: left;
     color: #fff;
 }
-.section7 {
+.DarkTheme .section7 {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.section7 .innerSection {
+.DarkTheme .section7 .innerSection {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
-.section7 .startTrade {
+.DarkTheme .section7 .startTrade {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-top: 62px;
 }
-
-.section7 .startTrade h2 {
+.DarkTheme .section7 .startTrade h2 {
     font-family: Poppins;
     font-weight: bold;
     font-size: 60px;
@@ -449,7 +448,7 @@ body {
     color: #fff;
     margin-bottom: 25px;
 }
-.section7 .startTrade .registerBtn {
+.DarkTheme .section7 .startTrade .registerBtn {
     width: 376px;
     height: 69px;
     border-radius: 34.5px;
@@ -470,7 +469,7 @@ body {
     border: none;
     margin-right: 47px;
 }
-.section7 .startTrade .tradeBtn {
+.DarkTheme .section7 .startTrade .tradeBtn {
     width: 376px;
     height: 69px;
     border-radius: 34.5px;
@@ -485,364 +484,367 @@ body {
     text-align: center;
     border: none;
 }
-footer {
+.DarkTheme footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #000000;
+    background-color: #000;
     margin-top: 89px;
 }
-footer .innerFooter {
+.DarkTheme footer .innerFooter {
     padding: 50px;
 }
-footer .footerHeading {
+.DarkTheme footer .footerHeading {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-footer .footerHeading img {
+.DarkTheme footer .footerHeading img {
     width: 249.93px;
     height: 84px;
 }
-footer .footerHeading h2 {
+.DarkTheme footer .footerHeading h2 {
     font-family: Poppins;
     font-weight: bold;
     font-size: 60px;
     text-align: left;
     color: #fff;
 }
-.footerLinkDiv {
+.DarkTheme .footerLinkDiv {
     display: flex;
-    /* align-items: center; */
+    /* align-items: center;
+    */
     justify-content: space-between;
     margin-top: 105px;
 }
-.footerLinkDiv h2 {
+.DarkTheme .footerLinkDiv h2 {
     font-family: Poppins;
     font-size: 29px;
     text-align: left;
     color: #fff !important;
 }
-.footerLinkDiv a {
+.DarkTheme .footerLinkDiv a {
     font-family: Poppins;
     font-size: 25px;
     text-align: left;
     color: #fff !important;
 }
-.footerLinkDiv .linkDiv {
+.DarkTheme .footerLinkDiv .linkDiv {
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
+    /* align-items: center;
+    */
     flex-direction: column;
 }
 
 @media screen and (max-width: 1500px) {
-    .containDiv {
+    .DarkTheme {
+        background-color: #161616 !important;
+    }
+    .DarkTheme .containDiv {
         max-width: unset !important;
         width: 100%;
-
         padding: 0px 30px;
     }
-    .section1 .sec1Text h2,
-    .section2 h2,
-    .section3 .sec3Text h2,
-    .section4 .sec4Text h2,
-    .section7 .startTrade h2,
-    .footerHeading h2 {
+    .DarkTheme .section1 .sec1Text h2,
+    .DarkTheme .section2 h2,
+    .DarkTheme .section3 .sec3Text h2,
+    .DarkTheme .section4 .sec4Text h2,
+    .DarkTheme .section7 .startTrade h2,
+    .DarkTheme .footerHeading h2 {
         font-size: 46px !important;
         line-height: 60px !important;
     }
-    .section1 .sec1Text p {
+    .DarkTheme .section1 .sec1Text p {
         font-size: 15px;
     }
-    .section1 .sec1Text button {
+    .DarkTheme .section1 .sec1Text button {
         width: 213px;
         height: 43px;
         font-size: 18px;
     }
-    .section1 .sec1Text {
+    .DarkTheme .section1 .sec1Text {
         padding: 0px 82px 0px 0px;
     }
-    .sec1Image {
-    }
-    .sec1Image img {
+    .DarkTheme .sec1Image img {
         width: 566px;
     }
-    .section2 .innerSection .smallheading {
+    .DarkTheme .section2 .innerSection .smallheading {
         font-size: 16px;
     }
-    .section2 .sec2Des {
+    .DarkTheme .section2 .sec2Des {
         font-size: 21px;
     }
-    .coin img {
+    .DarkTheme .coin img {
         width: 68px;
         height: 68px;
         margin-bottom: 17px;
     }
-    .coin h3 {
+    .DarkTheme .coin h3 {
         font-size: 40px;
         margin-bottom: 4px;
         line-height: 40px;
     }
-    .coinDetaol .detail p {
+    .DarkTheme .coinDetaol .detail p {
         font-size: 14px;
         line-height: 20px;
     }
-    .coinDetaol .price p {
+    .DarkTheme .coinDetaol .price p {
         font-size: 15px;
         line-height: 19px;
     }
-    .coinDetaol .price svg {
+    .DarkTheme .coinDetaol .price svg {
         width: 17px;
     }
-    .coinMainDiv {
+    .DarkTheme .coinMainDiv {
         padding: 0px 90px;
     }
-    .section3 .sec3Text h5 {
+    .DarkTheme .section3 .sec3Text h5 {
         font-size: 21px;
     }
-    .section3 .sec3Text p {
+    .DarkTheme .section3 .sec3Text p {
         font-size: 16px;
     }
-    .section3 .sec3Text button {
+    .DarkTheme .section3 .sec3Text button {
         width: 263px;
         height: 49px;
         font-size: 16px;
     }
-    .sec3Image {
+    .DarkTheme .sec3Image {
         width: 522px;
     }
-    .sec3Image img {
+    .DarkTheme .sec3Image img {
         width: 100%;
     }
-    .section4 .sec4Text h5 {
+    .DarkTheme .section4 .sec4Text h5 {
         font-size: 21px;
     }
-    .section4 .sec4Text p {
+    .DarkTheme .section4 .sec4Text p {
         font-size: 16px;
     }
-    .section4 .sec4Text button {
+    .DarkTheme .section4 .sec4Text button {
         width: 263px;
         height: 49px;
         font-size: 16px;
     }
-    .sec4Image {
+    .DarkTheme .sec4Image {
         width: 522px;
     }
-    .sec4Image img {
+    .DarkTheme .sec4Image img {
         width: 100%;
     }
-    .section5 .percents .up {
+    .DarkTheme .section5 .percents .up {
         font-size: 15px;
         margin: 5px;
     }
-    .section5 .innerSection {
+    .DarkTheme .section5 .innerSection {
         padding: 0px 90px;
     }
-    .section5 .percents h2 {
+    .DarkTheme .section5 .percents h2 {
         font-size: 60px;
         margin: 4px;
     }
-    .section5 .percents .cryptos {
+    .DarkTheme .section5 .percents .cryptos {
         font-size: 21px;
     }
-    .percentsDiv svg {
+    .DarkTheme .percentsDiv svg {
         width: 30px;
     }
-    .section6 .sec6Links {
+    .DarkTheme .section6 .sec6Links {
         padding: 100px 40px;
     }
-    .section6 .sec6Links .linkDiv h5,
-    .section6 .sec6Links .linkDiv p {
+    .DarkTheme .section6 .sec6Links .linkDiv h5,
+    .DarkTheme .section6 .sec6Links .linkDiv p {
         font-size: 20px;
     }
-    .sec6Image img {
+    .DarkTheme .sec6Image img {
         width: 680px;
     }
-    .section7 .startTrade .registerBtn,
-    .section7 .startTrade .tradeBtn {
+    .DarkTheme .section7 .startTrade .registerBtn,
+    .DarkTheme .section7 .startTrade .tradeBtn {
         width: 256px;
         height: 55px;
         font-size: 20px;
     }
-    .footerLinkDiv h2 {
+    .DarkTheme .footerLinkDiv h2 {
         font-size: 23px;
     }
-    .footerLinkDiv a {
+    .DarkTheme .footerLinkDiv a {
         font-size: 17px;
     }
-    footer .footerHeading img {
+    .DarkTheme footer .footerHeading img {
         width: 199.93px;
         height: auto;
     }
-    .section6 .innerSection {
+    .DarkTheme .section6 .innerSection {
         display: flex;
         align-items: center;
         justify-content: center;
     }
-    .sec6Links {
+    .DarkTheme .sec6Links {
         width: 80%;
     }
-    .navbar .nav-item {
+    .DarkTheme .navbar .nav-item {
         margin-left: 34px;
     }
 }
 @media screen and (max-width: 600px) {
-    .section1 .innerSection {
+    .DarkTheme .section1 .innerSection {
         flex-direction: column-reverse;
     }
-    .sec1Image img {
+    .DarkTheme .sec1Image img {
         width: 100%;
     }
-    .section5 .innerSection {
+    .DarkTheme .section5 .innerSection {
         flex-direction: column;
     }
-    .section5 .percents .cryptos {
+    .DarkTheme .section5 .percents .cryptos {
         text-align: center;
     }
-    .sec6Image img {
+    .DarkTheme .sec6Image img {
         width: 100%;
     }
-    footer .footerHeading {
+    .DarkTheme footer .footerHeading {
         flex-direction: column;
     }
-    .footerLinkDiv {
+    .DarkTheme .footerLinkDiv {
         flex-wrap: wrap;
     }
-    .section1 .sec1Text {
+    .DarkTheme .section1 .sec1Text {
         padding: 0px;
     }
-    .section1 .sec1Text h2,
-    .section2 h2,
-    .section3 .sec3Text h2,
-    .section4 .sec4Text h2,
-    .section7 .startTrade h2,
-    .footerHeading h2 {
+    .DarkTheme .section1 .sec1Text h2,
+    .DarkTheme .section2 h2,
+    .DarkTheme .section3 .sec3Text h2,
+    .DarkTheme .section4 .sec4Text h2,
+    .DarkTheme .section7 .startTrade h2,
+    .DarkTheme .footerHeading h2 {
         text-align: center !important;
         font-size: 31px !important;
         line-height: 36px !important;
         margin-top: 20px;
     }
-    .section1 .sec1Text p {
+    .DarkTheme .section1 .sec1Text p {
         text-align: center;
     }
-    .sec1Text {
+    .DarkTheme .sec1Text {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .section2 {
+    .DarkTheme .section2 {
         margin-top: 48px;
     }
-    .coinMainDiv {
+    .DarkTheme .coinMainDiv {
         flex-wrap: wrap;
         padding: 0px;
     }
-    .coinDiv {
+    .DarkTheme .coinDiv {
         width: 43%;
         padding: 0px;
         margin: 10px;
     }
-    .coin {
+    .DarkTheme .coin {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
-    .section3 {
+    .DarkTheme .section3 {
         margin-top: 66px;
     }
-    .section3 .innerSection {
+    .DarkTheme .section3 .innerSection {
         flex-direction: column-reverse;
     }
-    .sec3Image {
+    .DarkTheme .sec3Image {
         width: 100%;
     }
-    .section3 .sec3Text,
-    .sec4Text {
+    .DarkTheme .section3 .sec3Text,
+    .DarkTheme .sec4Text {
         margin-top: 20px;
         display: flex;
         align-items: center;
         flex-direction: column;
-        /* align-items: center; */
+        /* align-items: center;
+        */
     }
-    .section3 .sec3Text h5 {
+    .DarkTheme .section3 .sec3Text h5 {
         text-align: center;
     }
-    .section3 .sec3Text p {
+    .DarkTheme .section3 .sec3Text p {
         text-align: center;
     }
-    .section4 {
+    .DarkTheme .section4 {
         margin-top: 66px;
     }
-    .section4 .innerSection {
+    .DarkTheme .section4 .innerSection {
         flex-direction: column;
     }
-    .section4 .sec4Image {
+    .DarkTheme .section4 .sec4Image {
         width: 100%;
     }
-    .sec4Text p {
+    .DarkTheme .sec4Text p {
         text-align: center !important;
     }
-    .section5 .innerSection {
+    .DarkTheme .section5 .innerSection {
         padding: auto !important;
     }
-    .section6 .sec6Links {
+    .DarkTheme .section6 .sec6Links {
         padding: 40px 0px !important;
         width: 100%;
     }
-    .section6 .sec6Links .rowDiv {
+    .DarkTheme .section6 .sec6Links .rowDiv {
         align-items: flex-start !important;
     }
-    .section6 .sec6Links .linkDiv h5,
-    .section6 .sec6Links .linkDiv p {
+    .DarkTheme .section6 .sec6Links .linkDiv h5,
+    .DarkTheme .section6 .sec6Links .linkDiv p {
         font-size: 15px;
     }
-    .tradeBtnDiv {
+    .DarkTheme .tradeBtnDiv {
         display: flex;
     }
-    .section7 .startTrade .registerBtn {
+    .DarkTheme .section7 .startTrade .registerBtn {
         margin-right: 7px;
     }
-    .section7 .startTrade .registerBtn,
-    .section7 .startTrade .tradeBtn {
+    .DarkTheme .section7 .startTrade .registerBtn,
+    .DarkTheme .section7 .startTrade .tradeBtn {
         width: 156px;
         height: 45px;
         font-size: 16px;
     }
-    .section6 {
+    .DarkTheme .section6 {
         margin-top: 60px;
     }
-    footer .footerHeading img {
+    .DarkTheme footer .footerHeading img {
         width: 160px;
     }
-    footer .innerFooter {
+    .DarkTheme footer .innerFooter {
         padding: 50px 30px;
     }
-    footer .innerFooter {
+    .DarkTheme footer .innerFooter {
         padding: 50px 20px;
     }
-    .footerLinkDiv .linkDiv {
+    .DarkTheme .footerLinkDiv .linkDiv {
         width: 50%;
         margin-bottom: 20px;
     }
-    .nav-item.Login {
+    .DarkTheme .nav-item.Login {
         margin-left: 23px;
         margin-bottom: 10px;
     }
-    .navbar-text {
+    .DarkTheme .navbar-text {
         justify-content: flex-start;
     }
-    .container-fluid.containDiv {
+    .DarkTheme .container-fluid.containDiv {
         padding: 0px;
     }
-    .navbar-light .navbar-text {
+    .DarkTheme .navbar-light .navbar-text {
         box-shadow: 0px 29px 25px -37px black;
     }
-    .navbar-toggler.collapsed {
+    .DarkTheme .navbar-toggler.collapsed {
         margin-right: 10px;
     }
-    .navbar-brand{
+    .DarkTheme .navbar-brand {
         padding: 10px;
     }
 }

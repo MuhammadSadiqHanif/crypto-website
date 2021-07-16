@@ -7,35 +7,41 @@
     margin-bottom: 0px;
     font-family: Poppins;
 }
-body {
+.whiteTheme {
     background-color: #fff !important;
+    /* .coinMainDiv {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+   }
+    */
 }
-.navbar {
+.whiteTheme .navbar {
     background-color: transparent;
     color: black;
 }
-.navbar-brand img {
+.whiteTheme .navbar-brand img {
     width: 202.2px;
     height: 73.17px;
 }
-.navbar-text {
+.whiteTheme .navbar-text {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: flex-end;
 }
-
-.navbar .nav-link {
+.whiteTheme .navbar .nav-link {
     font-family: Poppins;
     font-weight: 500;
     font-size: 14px;
     text-align: left;
     color: #000 !important;
 }
-.navbar .nav-item {
+.whiteTheme .navbar .nav-item {
     margin-left: 64px;
 }
-.Login .nav-link {
+.whiteTheme .Login .nav-link {
     width: 180px;
     height: 41px;
     border-radius: 20.5px;
@@ -53,10 +59,10 @@ body {
     text-align: center;
     color: #fff !important;
 }
-.SignUp {
+.whiteTheme .SignUp {
     margin-left: 23px !important;
 }
-.SignUp .nav-link {
+.whiteTheme .SignUp .nav-link {
     width: 180px;
     height: 41px;
     border-radius: 20.5px;
@@ -68,17 +74,17 @@ body {
     text-align: center;
     color: #000;
 }
-.containDiv {
+.whiteTheme .containDiv {
     max-width: 1408px;
     width: 100%;
 }
-.section1 {
+.whiteTheme .section1 {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 25px;
 }
-.section1 .sec1Text h2 {
+.whiteTheme .section1 .sec1Text h2 {
     font-family: Poppins;
     font-weight: bold;
     font-size: 60px;
@@ -86,22 +92,23 @@ body {
     text-align: left;
     color: #000;
 }
-.section1 .innerSection {
+.whiteTheme .section1 .innerSection {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.section1 .sec1Text p {
+.whiteTheme .section1 .sec1Text p {
     font-family: Poppins;
     font-weight: normal;
     font-size: 16px;
-    /* line-height: 12px; */
+    /* line-height: 12px;
+    */
     text-align: left;
     color: #000;
     opacity: 0.55;
     margin-top: 32px;
 }
-.section1 .sec1Text button {
+.whiteTheme .section1 .sec1Text button {
     width: 233px;
     height: 53px;
     border-radius: 26.5px;
@@ -120,13 +127,13 @@ body {
     color: #fff;
     border: none;
 }
-.section2 {
+.whiteTheme .section2 {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 158px;
 }
-.section2 .innerSection .smallheading {
+.whiteTheme .section2 .innerSection .smallheading {
     font-family: Poppins;
     font-weight: 500;
     font-size: 20px;
@@ -134,14 +141,14 @@ body {
     color: #000;
     opacity: 0.55;
 }
-.section2 h2 {
+.whiteTheme .section2 h2 {
     font-family: Poppins;
     font-weight: bold;
     font-size: 60px;
     text-align: center;
     color: #000;
 }
-.section2 .sec2Des {
+.whiteTheme .section2 .sec2Des {
     font-family: Poppins;
     font-weight: normal;
     font-size: 30px;
@@ -149,23 +156,18 @@ body {
     color: #000;
     opacity: 0.55;
 }
-.coinMainDiv {
+.whiteTheme .coinMainDiv {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 158px;
 }
-.coinDiv {
+.whiteTheme .coinDiv {
     width: 16%;
-    /* padding: 0px 30px; */
+    /* padding: 0px 30px;
+    */
 }
-/* .coinMainDiv {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: left;
-} */
-.coin h3 {
+.whiteTheme .coin h3 {
     font-family: Poppins;
     font-weight: bold;
     font-size: 60px;
@@ -174,16 +176,16 @@ body {
     color: #000;
     margin-bottom: 11px;
 }
-.coinDetaol {
+.whiteTheme .coinDetaol {
     display: flex;
     justify-content: space-between;
 }
-.coin img {
+.whiteTheme .coin img {
     width: 118px;
     height: 118px;
     margin-bottom: 17px;
 }
-.coinDetaol .detail p {
+.whiteTheme .coinDetaol .detail p {
     font-family: Poppins;
     font-weight: 500;
     font-size: 21px;
@@ -192,13 +194,13 @@ body {
     color: #000;
     opacity: 0.53;
 }
-.coinDetaol .price {
+.whiteTheme .coinDetaol .price {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.coinDetaol .price p {
+.whiteTheme .coinDetaol .price p {
     font-family: Poppins;
     font-weight: 500;
     font-size: 19px;
@@ -207,13 +209,13 @@ body {
     color: #000;
     margin-bottom: 5px !important;
 }
-.centerButtonDiv {
+.whiteTheme .centerButtonDiv {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 63px;
 }
-.centerButtonDiv button {
+.whiteTheme .centerButtonDiv button {
     width: 227px;
     height: 45px;
     border-radius: 22.5px;
@@ -232,18 +234,18 @@ body {
     color: #fff;
     border: none;
 }
-.section3 {
+.whiteTheme .section3 {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 146.1px;
 }
-.section3 .innerSection {
+.whiteTheme .section3 .innerSection {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.section3 .sec3Text h5 {
+.whiteTheme .section3 .sec3Text h5 {
     font-family: Poppins;
     font-weight: 500;
     font-size: 25px;
@@ -251,21 +253,21 @@ body {
     opacity: 0.39;
     text-align: left;
 }
-.section3 .sec3Text h2 {
+.whiteTheme .section3 .sec3Text h2 {
     font-family: Poppins;
     font-weight: bold;
     font-size: 60px;
     text-align: left;
     color: #000;
 }
-.section3 .sec3Text p {
+.whiteTheme .section3 .sec3Text p {
     font-family: Poppins;
     font-weight: normal;
     font-size: 20px;
     text-align: left;
     color: #000;
 }
-.section3 .sec3Text button {
+.whiteTheme .section3 .sec3Text button {
     width: 293px;
     height: 55px;
     border-radius: 27.5px;
@@ -284,19 +286,18 @@ body {
     color: #fff;
     border: none;
 }
-
-.section4 {
+.whiteTheme .section4 {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 146.1px;
 }
-.section4 .innerSection {
+.whiteTheme .section4 .innerSection {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.section4 .sec4Text h5 {
+.whiteTheme .section4 .sec4Text h5 {
     font-family: Poppins;
     font-weight: 500;
     font-size: 25px;
@@ -304,21 +305,21 @@ body {
     opacity: 0.39;
     text-align: left;
 }
-.section4 .sec4Text h2 {
+.whiteTheme .section4 .sec4Text h2 {
     font-family: Poppins;
     font-weight: bold;
     font-size: 60px;
     text-align: left;
     color: #000;
 }
-.section4 .sec4Text p {
+.whiteTheme .section4 .sec4Text p {
     font-family: Poppins;
     font-weight: bold;
     font-size: 20px;
     text-align: left;
     color: #000;
 }
-.section4 .sec4Text button {
+.whiteTheme .section4 .sec4Text button {
     width: 293px;
     height: 55px;
     border-radius: 27.5px;
@@ -337,29 +338,28 @@ body {
     color: #fff;
     border: none;
 }
-.section4 .imageDiv {
+.whiteTheme .section4 .imageDiv {
     padding: 0px 13px;
 }
-
-.section5 {
+.whiteTheme .section5 {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 60px;
 }
-.section5 .innerSection {
+.whiteTheme .section5 .innerSection {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.section5 .percents {
+.whiteTheme .section5 .percents {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-right: 8px;
 }
-.section5 .percents .up {
+.whiteTheme .section5 .percents .up {
     font-family: Poppins;
     font-weight: 500;
     font-size: 25px;
@@ -367,7 +367,7 @@ body {
     color: #000;
     margin-bottom: 15px;
 }
-.section5 .percents h2 {
+.whiteTheme .section5 .percents h2 {
     font-family: Poppins;
     font-weight: bold;
     font-size: 90px;
@@ -375,27 +375,26 @@ body {
     margin-bottom: 14px;
     color: #000;
 }
-.section5 .percents .cryptos {
+.whiteTheme .section5 .percents .cryptos {
     font-family: Poppins;
     font-weight: 500;
     font-size: 25px;
     text-align: left;
     color: #000;
 }
-
-.section5 .percentsDiv {
+.whiteTheme .section5 .percentsDiv {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.section6 {
-    background-color: #F3F3F3;
+.whiteTheme .section6 {
+    background-color: #f3f3f3;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 151px;
 }
-.section6 .sec6Links {
+.whiteTheme .section6 .sec6Links {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -403,7 +402,7 @@ body {
     flex-direction: column;
     padding: 150px 10px 182px;
 }
-.section6 .sec6Links .rowDiv {
+.whiteTheme .section6 .sec6Links .rowDiv {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -411,37 +410,37 @@ body {
     flex-direction: row;
     width: 100%;
 }
-.section6 .sec6Links .linkDiv {
+.whiteTheme .section6 .sec6Links .linkDiv {
     width: 50%;
 }
-.section6 .sec6Links .linkDiv h5,
-.section6 .sec6Links .linkDiv p {
+.whiteTheme .section6 .sec6Links .linkDiv h5,
+.whiteTheme .section6 .sec6Links .linkDiv p {
     font-family: Poppins;
-    /* font-weight: bold; */
+    /* font-weight: bold;
+    */
     font-size: 30px;
     text-align: left;
     color: #000;
 }
-.section7 {
+.whiteTheme .section7 {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.section7 .innerSection {
+.whiteTheme .section7 .innerSection {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
-.section7 .startTrade {
+.whiteTheme .section7 .startTrade {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-top: 62px;
 }
-
-.section7 .startTrade h2 {
+.whiteTheme .section7 .startTrade h2 {
     font-family: Poppins;
     font-weight: bold;
     font-size: 60px;
@@ -449,7 +448,7 @@ body {
     color: #000;
     margin-bottom: 25px;
 }
-.section7 .startTrade .registerBtn {
+.whiteTheme .section7 .startTrade .registerBtn {
     width: 376px;
     height: 69px;
     border-radius: 34.5px;
@@ -470,7 +469,7 @@ body {
     border: none;
     margin-right: 47px;
 }
-.section7 .startTrade .tradeBtn {
+.whiteTheme .section7 .startTrade .tradeBtn {
     width: 376px;
     height: 69px;
     border-radius: 34.5px;
@@ -485,398 +484,91 @@ body {
     text-align: center;
     border: none;
 }
-footer {
+.whiteTheme footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #F3F3F3;
+    background-color: #f3f3f3;
     margin-top: 89px;
 }
-footer .innerFooter {
+.whiteTheme footer .innerFooter {
     padding: 50px;
 }
-footer .footerHeading {
+.whiteTheme footer .footerHeading {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-footer .footerHeading img {
+.whiteTheme footer .footerHeading img {
     width: 249.93px;
     height: 84px;
 }
-footer .footerHeading h2 {
+.whiteTheme footer .footerHeading h2 {
     font-family: Poppins;
     font-weight: bold;
     font-size: 60px;
     text-align: left;
     color: #000;
 }
-.footerLinkDiv {
+.whiteTheme .footerLinkDiv {
     display: flex;
-    /* align-items: center; */
+    /* align-items: center;
+    */
     justify-content: space-between;
     margin-top: 105px;
 }
-.footerLinkDiv h2 {
+.whiteTheme .footerLinkDiv h2 {
     font-family: Poppins;
     font-size: 29px;
     text-align: left;
     color: #000 !important;
 }
-.footerLinkDiv a {
+.whiteTheme .footerLinkDiv a {
     font-family: Poppins;
     font-size: 25px;
     text-align: left;
     color: #000 !important;
 }
-.footerLinkDiv .linkDiv {
+.whiteTheme .footerLinkDiv .linkDiv {
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
+    /* align-items: center;
+    */
     flex-direction: column;
 }
-
-@media screen and (max-width: 1500px) {
-    .containDiv {
-        max-width: unset !important;
-        width: 100%;
-
-        padding: 0px 30px;
-    }
-    .section1 .sec1Text h2,
-    .section2 h2,
-    .section3 .sec3Text h2,
-    .section4 .sec4Text h2,
-    .section7 .startTrade h2,
-    .footerHeading h2 {
-        font-size: 46px !important;
-        line-height: 60px !important;
-    }
-    .section1 .sec1Text p {
-        font-size: 15px;
-    }
-    .section1 .sec1Text button {
-        width: 213px;
-        height: 43px;
-        font-size: 18px;
-    }
-    .section1 .sec1Text {
-        padding: 0px 82px 0px 0px;
-    }
-    .sec1Image {
-    }
-    .sec1Image img {
-        width: 566px;
-    }
-    .section2 .innerSection .smallheading {
-        font-size: 16px;
-    }
-    .section2 .sec2Des {
-        font-size: 21px;
-    }
-    .coin img {
-        width: 68px;
-        height: 68px;
-        margin-bottom: 17px;
-    }
-    .coin h3 {
-        font-size: 40px;
-        margin-bottom: 4px;
-        line-height: 40px;
-    }
-    .coinDetaol .detail p {
-        font-size: 14px;
-        line-height: 20px;
-    }
-    .coinDetaol .price p {
-        font-size: 15px;
-        line-height: 19px;
-    }
-    .coinDetaol .price svg {
-        width: 17px;
-    }
-    .coinMainDiv {
-        padding: 0px 90px;
-    }
-    .section3 .sec3Text h5 {
-        font-size: 21px;
-    }
-    .section3 .sec3Text p {
-        font-size: 16px;
-    }
-    .section3 .sec3Text button {
-        width: 263px;
-        height: 49px;
-        font-size: 16px;
-    }
-    .sec3Image {
-        width: 522px;
-    }
-    .sec3Image img {
-        width: 100%;
-    }
-    .section4 .sec4Text h5 {
-        font-size: 21px;
-    }
-    .section4 .sec4Text p {
-        font-size: 16px;
-    }
-    .section4 .sec4Text button {
-        width: 263px;
-        height: 49px;
-        font-size: 16px;
-    }
-    .sec4Image {
-        width: 522px;
-    }
-    .sec4Image img {
-        width: 100%;
-    }
-    .section5 .percents .up {
-        font-size: 15px;
-        margin: 5px;
-    }
-    .section5 .innerSection {
-        padding: 0px 90px;
-    }
-    .section5 .percents h2 {
-        font-size: 60px;
-        margin: 4px;
-    }
-    .section5 .percents .cryptos {
-        font-size: 21px;
-    }
-    .percentsDiv svg {
-        width: 30px;
-    }
-    .section6 .sec6Links {
-        padding: 100px 40px;
-    }
-    .section6 .sec6Links .linkDiv h5,
-    .section6 .sec6Links .linkDiv p {
-        font-size: 20px;
-    }
-    .sec6Image img {
-        width: 680px;
-    }
-    .section7 .startTrade .registerBtn,
-    .section7 .startTrade .tradeBtn {
-        width: 256px;
-        height: 55px;
-        font-size: 20px;
-    }
-    .footerLinkDiv h2 {
-        font-size: 23px;
-    }
-    .footerLinkDiv a {
-        font-size: 17px;
-    }
-    footer .footerHeading img {
-        width: 199.93px;
-        height: auto;
-    }
-    .section6 .innerSection {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .sec6Links {
-        width: 80%;
-    }
-    .navbar .nav-item {
-        margin-left: 34px;
-    }
-}
-@media screen and (max-width: 600px) {
-    .section1 .innerSection {
-        flex-direction: column-reverse;
-    }
-    .sec1Image img {
-        width: 100%;
-    }
-    .section5 .innerSection {
-        flex-direction: column;
-    }
-    .section5 .percents .cryptos {
-        text-align: center;
-    }
-    .sec6Image img {
-        width: 100%;
-    }
-    footer .footerHeading {
-        flex-direction: column;
-    }
-    .footerLinkDiv {
-        flex-wrap: wrap;
-    }
-    .section1 .sec1Text {
-        padding: 0px;
-    }
-    .section1 .sec1Text h2,
-    .section2 h2,
-    .section3 .sec3Text h2,
-    .section4 .sec4Text h2,
-    .section7 .startTrade h2,
-    .footerHeading h2 {
-        text-align: center !important;
-        font-size: 31px !important;
-        line-height: 36px !important;
-        margin-top: 20px;
-    }
-    .section1 .sec1Text p {
-        text-align: center;
-    }
-    .sec1Text {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .section2 {
-        margin-top: 48px;
-    }
-    .coinMainDiv {
-        flex-wrap: wrap;
-        padding: 0px;
-    }
-    .coinDiv {
-        width: 43%;
-        padding: 0px;
-        margin: 10px;
-    }
-    .coin {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    .section3 {
-        margin-top: 66px;
-    }
-    .section3 .innerSection {
-        flex-direction: column-reverse;
-    }
-    .sec3Image {
-        width: 100%;
-    }
-    .section3 .sec3Text,
-    .sec4Text {
-        margin-top: 20px;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        /* align-items: center; */
-    }
-    .section3 .sec3Text h5 {
-        text-align: center;
-    }
-    .section3 .sec3Text p {
-        text-align: center;
-    }
-    .section4 {
-        margin-top: 66px;
-    }
-    .section4 .innerSection {
-        flex-direction: column;
-    }
-    .section4 .sec4Image {
-        width: 100%;
-    }
-    .sec4Text p {
-        text-align: center !important;
-    }
-    .section5 .innerSection {
-        padding: auto !important;
-    }
-    .section6 .sec6Links {
-        padding: 40px 0px !important;
-        width: 100%;
-    }
-    .section6 .sec6Links .rowDiv {
-        align-items: flex-start !important;
-    }
-    .section6 .sec6Links .linkDiv h5,
-    .section6 .sec6Links .linkDiv p {
-        font-size: 15px;
-    }
-    .tradeBtnDiv {
-        display: flex;
-    }
-    .section7 .startTrade .registerBtn {
-        margin-right: 7px;
-    }
-    .section7 .startTrade .registerBtn,
-    .section7 .startTrade .tradeBtn {
-        width: 156px;
-        height: 45px;
-        font-size: 16px;
-    }
-    .section6 {
-        margin-top: 60px;
-    }
-    footer .footerHeading img {
-        width: 160px;
-    }
-    footer .innerFooter {
-        padding: 50px 30px;
-    }
-    footer .innerFooter {
-        padding: 50px 20px;
-    }
-    .footerLinkDiv .linkDiv {
-        width: 50%;
-        margin-bottom: 20px;
-    }
-    .nav-item.Login {
-        margin-left: 23px;
-        margin-bottom: 10px;
-    }
-    .navbar-text {
-        justify-content: flex-start;
-    }
-    .container-fluid.containDiv {
-        padding: 0px;
-    }
-    .navbar-light .navbar-text {
-        box-shadow: 0px 29px 25px -37px black;
-    }
-    .navbar-toggler.collapsed {
-        margin-right: 10px;
-    }
-    .navbar-brand{
-        padding: 10px;
-    }
-}
-
-.section8{
+.whiteTheme .section8 {
     margin-bottom: 100px;
     margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.section8 .section8Inner{
+.whiteTheme .section8 .section8Inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.section8 .imageDiv{
+.whiteTheme .section8 .imageDiv {
     width: 50%;
 }
-.section8 .imageDiv img{
+.whiteTheme .section8 .imageDiv img {
     width: 100%;
 }
-.section8 .sec8Text h2 {
+.whiteTheme .section8 .sec8Text h2 {
     font-family: Poppins;
     font-weight: bold;
     font-size: 60px;
     text-align: left;
     color: #000;
 }
-.section8 .sec8Text p {
+.whiteTheme .section8 .sec8Text p {
     font-family: Poppins;
     font-weight: bold;
     font-size: 20px;
     text-align: left;
     color: #000;
 }
-.section8 .sec8Text button {
+.whiteTheme .section8 .sec8Text button {
     width: 293px;
     height: 55px;
     border-radius: 27.5px;
@@ -894,4 +586,1232 @@ footer .footerHeading h2 {
     text-align: center;
     color: #fff;
     border: none;
+}
+.whiteTheme .section9 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f3f3f3;
+    margin-top: 153px;
+}
+.whiteTheme .section9 .innerSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.whiteTheme .section9 .contactUs h2 {
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 70px;
+    text-align: left;
+    color: #2e2e2e;
+}
+.whiteTheme .section9 .contactUs p {
+    font-family: Poppins;
+    font-weight: normal;
+    font-size: 25px;
+    text-align: left;
+    color: #343434;
+}
+.whiteTheme .section9 .sec9Image {
+    width: 698px;
+    height: 698px;
+}
+.whiteTheme .section9 .sec9Image img {
+    height: 100%;
+}
+.whiteTheme footer {
+    background-color: white !important;
+}
+
+@media screen and (max-width: 1500px) {
+    .whiteTheme {
+        background-color: #fff !important;
+    }
+    .whiteTheme .containDiv {
+        max-width: unset !important;
+        width: 100%;
+        padding: 0px 30px;
+    }
+    .whiteTheme .section1 .sec1Text h2,
+    .whiteTheme .section2 h2,
+    .whiteTheme .section3 .sec3Text h2,
+    .whiteTheme .section4 .sec4Text h2,
+    .whiteTheme .section7 .startTrade h2,
+    .whiteTheme .footerHeading h2,
+    .whiteTheme .section8 .sec8Text h2,
+    .whiteTheme .section9 .contactUs h2 {
+        font-size: 46px !important;
+        line-height: 60px !important;
+    }
+    .whiteTheme .section1 .sec1Text p {
+        font-size: 15px;
+    }
+    .whiteTheme .section1 .sec1Text button {
+        width: 213px;
+        height: 43px;
+        font-size: 18px;
+    }
+    .whiteTheme .section1 .sec1Text {
+        padding: 0px 82px 0px 0px;
+    }
+    .whiteTheme .section1 .sec1Image img {
+        width: 566px;
+    }
+    .whiteTheme .section2 .innerSection .smallheading {
+        font-size: 16px;
+    }
+    .whiteTheme .section2 .sec2Des {
+        font-size: 21px;
+    }
+    .whiteTheme .coin img {
+        width: 68px;
+        height: 68px;
+        margin-bottom: 17px;
+    }
+    .whiteTheme .coin h3 {
+        font-size: 40px;
+        margin-bottom: 4px;
+        line-height: 40px;
+    }
+    .whiteTheme .coinDetaol .detail p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .whiteTheme .coinDetaol .price p {
+        font-size: 15px;
+        line-height: 19px;
+    }
+    .whiteTheme .coinDetaol .price svg {
+        width: 17px;
+    }
+    .whiteTheme .coinMainDiv {
+        padding: 0px 90px;
+    }
+    .whiteTheme .section3 .sec3Text h5 {
+        font-size: 21px;
+    }
+    .whiteTheme .section3 .sec3Text p {
+        font-size: 16px;
+    }
+    .whiteTheme .section3 .sec3Text button {
+        width: 263px;
+        height: 49px;
+        font-size: 16px;
+    }
+    .whiteTheme .sec3Image {
+        width: 522px;
+    }
+    .whiteTheme .sec3Image img {
+        width: 100%;
+    }
+    .whiteTheme .section4 .sec4Text h5 {
+        font-size: 21px;
+    }
+    .whiteTheme .section4 .sec4Text p {
+        font-size: 16px;
+    }
+    .whiteTheme .section4 .sec4Text button {
+        width: 263px;
+        height: 49px;
+        font-size: 16px;
+    }
+    .whiteTheme .sec4Image {
+        width: 522px;
+    }
+    .whiteTheme .sec4Image img {
+        width: 100%;
+    }
+    .whiteTheme .section5 .percents .up {
+        font-size: 15px;
+        margin: 5px;
+    }
+    .whiteTheme .section5 .innerSection {
+        padding: 0px 90px;
+    }
+    .whiteTheme .section5 .percents h2 {
+        font-size: 60px;
+        margin: 4px;
+    }
+    .whiteTheme .section5 .percents .cryptos {
+        font-size: 21px;
+    }
+    .whiteTheme .percentsDiv svg {
+        width: 30px;
+    }
+    .whiteTheme .section6 .sec6Links {
+        padding: 100px 40px;
+    }
+    .whiteTheme .section6 .sec6Links .linkDiv h5,
+    .whiteTheme .section6 .sec6Links .linkDiv p {
+        font-size: 20px;
+    }
+    .whiteTheme .sec6Image img {
+        width: 680px;
+    }
+    .whiteTheme .section7 .startTrade .registerBtn,
+    .whiteTheme .section7 .startTrade .tradeBtn {
+        width: 256px;
+        height: 55px;
+        font-size: 20px;
+    }
+    .whiteTheme .footerLinkDiv h2 {
+        font-size: 23px;
+    }
+    .whiteTheme .footerLinkDiv a {
+        font-size: 17px;
+    }
+    .whiteTheme footer .footerHeading img {
+        width: 199.93px;
+        height: auto;
+    }
+    .whiteTheme .section6 .innerSection {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .whiteTheme .sec6Links {
+        width: 80%;
+    }
+    .whiteTheme .navbar .nav-item {
+        margin-left: 34px;
+    }
+    .whiteTheme .section8 .sec8Text p,
+    .whiteTheme .section9 .contactUs p {
+        font-size: 16px;
+    }
+    .whiteTheme .section9 .sec9Image {
+        width: 558px;
+        height: 558px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .whiteTheme {
+        background-color: #fff !important;
+    }
+    .whiteTheme .section1 .innerSection {
+        flex-direction: column-reverse;
+    }
+    .whiteTheme .sec1Image img {
+        width: 100% !important; 
+    }
+    .whiteTheme .section5 .innerSection {
+        flex-direction: column;
+    }
+    .whiteTheme .section5 .percents .cryptos {
+        text-align: center;
+    }
+    .whiteTheme .sec6Image img {
+        width: 100%;
+    }
+    .whiteTheme footer .footerHeading {
+        flex-direction: column;
+    }
+    .whiteTheme .footerLinkDiv {
+        flex-wrap: wrap;
+    }
+    .whiteTheme .section1 .sec1Text {
+        padding: 0px;
+    }
+    .whiteTheme .section1 .sec1Text h2,
+    .whiteTheme .section2 h2,
+    .whiteTheme .section3 .sec3Text h2,
+    .whiteTheme .section4 .sec4Text h2,
+    .whiteTheme .section7 .startTrade h2,
+    .whiteTheme .section8 .sec8Text h2,
+    .whiteTheme .footerHeading h2,
+    .whiteTheme .section9 .innerSection .contactUs h2 {
+        text-align: center !important;
+        font-size: 31px !important;
+        line-height: 36px !important;
+        margin-top: 20px;
+    }
+    .whiteTheme .section1 .sec1Text p {
+        text-align: center;
+    }
+    .whiteTheme .sec1Text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .whiteTheme .section2 {
+        margin-top: 48px;
+    }
+    .whiteTheme .coinMainDiv {
+        flex-wrap: wrap;
+        padding: 0px;
+    }
+    .whiteTheme .coinDiv {
+        width: 43%;
+        padding: 0px;
+        margin: 10px;
+    }
+    .whiteTheme .coin {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .whiteTheme .section3 {
+        margin-top: 66px;
+    }
+    .whiteTheme .section3 .innerSection {
+        flex-direction: column-reverse;
+    }
+    .whiteTheme .sec3Image {
+        width: 100%;
+    }
+    .whiteTheme .section3 .sec3Text,
+    .whiteTheme .sec4Text {
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        /* align-items: center;
+        */
+    }
+    .whiteTheme .section3 .sec3Text h5 {
+        text-align: center;
+    }
+    .whiteTheme .section3 .sec3Text p {
+        text-align: center;
+    }
+    .whiteTheme .section4 {
+        margin-top: 66px;
+    }
+    .whiteTheme .section4 .innerSection {
+        flex-direction: column;
+    }
+    .whiteTheme .section4 .sec4Image {
+        width: 100%;
+    }
+    .whiteTheme .sec4Text p {
+        text-align: center !important;
+    }
+    .whiteTheme .section5 .innerSection {
+        padding: auto !important;
+    }
+    .whiteTheme .section6 .sec6Links {
+        padding: 40px 0px !important;
+        width: 100%;
+    }
+    .whiteTheme .section6 .sec6Links .rowDiv {
+        align-items: flex-start !important;
+    }
+    .whiteTheme .section6 .sec6Links .linkDiv h5,
+    .whiteTheme .section6 .sec6Links .linkDiv p {
+        font-size: 15px;
+    }
+    .whiteTheme .tradeBtnDiv {
+        display: flex;
+    }
+    .whiteTheme .section7 .startTrade .registerBtn {
+        margin-right: 7px;
+    }
+    .whiteTheme .section7 .startTrade .registerBtn,
+    .whiteTheme .section7 .startTrade .tradeBtn {
+        width: 156px;
+        height: 45px;
+        font-size: 16px;
+    }
+    .whiteTheme .section6 {
+        margin-top: 60px;
+    }
+    .whiteTheme footer .footerHeading img {
+        width: 160px;
+    }
+    .whiteTheme footer .innerFooter {
+        padding: 50px 30px;
+    }
+    .whiteTheme footer .innerFooter {
+        padding: 50px 20px;
+    }
+    .whiteTheme .footerLinkDiv .linkDiv {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    .whiteTheme .nav-item.Login {
+        margin-left: 23px;
+        margin-bottom: 10px;
+    }
+    .whiteTheme .navbar-text {
+        justify-content: flex-start;
+    }
+    .whiteTheme .container-fluid.containDiv {
+        padding: 0px;
+    }
+    .whiteTheme .navbar-light .navbar-text {
+        box-shadow: 0px 29px 25px -37px black;
+    }
+    .whiteTheme .navbar-toggler.collapsed {
+        margin-right: 10px;
+    }
+    .whiteTheme .navbar-brand {
+        padding: 10px;
+    }
+    .section8 .section8Inner {
+        flex-direction: column;
+    }
+    .section8 .section8Inner .imageDiv {
+        width: 100%;
+    }
+    .whiteTheme .section8 .sec8Text p,
+    .whiteTheme .section9 .innerSection .contactUs p {
+        text-align: center;
+    }
+    .section9 .sec9Image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100% !important;
+        height: auto !important;
+    }
+    .section9 .innerSection {
+        flex-direction: column;
+    }
+}
+
+/* Dark Theme CSS */
+
+.DarkTheme {
+    background-color: #161616 !important;
+    /* .coinMainDiv {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+   }
+    */
+}
+.DarkTheme .navbar {
+    background-color: transparent;
+    color: white;
+}
+.DarkTheme .navbar-brand img {
+    width: 202.2px;
+    height: 73.17px;
+}
+.DarkTheme .navbar-text {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.DarkTheme .navbar .nav-link {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: left;
+    color: #fff !important;
+}
+.DarkTheme .navbar .nav-item {
+    margin-left: 64px;
+}
+.DarkTheme .Login .nav-link {
+    width: 180px;
+    height: 41px;
+    border-radius: 20.5px;
+    background: linear-gradient(
+        #176aff 0.1%,
+        #166dff 20.89%,
+        #1379ff 41.01%,
+        #0e8dff 60.88%,
+        #08a8ff 80.45%,
+        #00cbff 99.87%
+    );
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    color: #fff !important;
+}
+.DarkTheme .SignUp {
+    margin-left: 23px !important;
+}
+.DarkTheme .SignUp .nav-link {
+    width: 180px;
+    height: 41px;
+    border-radius: 20.5px;
+    background: transparent;
+    border: 1px solid #fff;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    color: #fff;
+}
+.DarkTheme .containDiv {
+    max-width: 1408px;
+    width: 100%;
+}
+.DarkTheme .section1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+.DarkTheme .section1 .sec1Text h2 {
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 70px;
+    text-align: left;
+    color: #fff;
+}
+.DarkTheme .section1 .innerSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.DarkTheme .section1 .sec1Text p {
+    font-family: Poppins;
+    font-weight: normal;
+    font-size: 16px;
+    /* line-height: 12px;
+    */
+    text-align: left;
+    color: #fff;
+    opacity: 0.55;
+    margin-top: 32px;
+}
+.DarkTheme .section1 .sec1Text button {
+    width: 233px;
+    height: 53px;
+    border-radius: 26.5px;
+    background: linear-gradient(
+        #176aff 0.1%,
+        #166dff 20.89%,
+        #1379ff 41.01%,
+        #0e8dff 60.88%,
+        #08a8ff 80.45%,
+        #00cbff 99.87%
+    );
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    border: none;
+}
+.DarkTheme .section2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 158px;
+}
+.DarkTheme .section2 .innerSection .smallheading {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    opacity: 0.55;
+}
+.DarkTheme .section2 h2 {
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+    color: #fff;
+}
+.DarkTheme .section2 .sec2Des {
+    font-family: Poppins;
+    font-weight: normal;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    opacity: 0.55;
+}
+.DarkTheme .coinMainDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 158px;
+}
+.DarkTheme .coinDiv {
+    width: 16%;
+    /* padding: 0px 30px;
+    */
+}
+.DarkTheme .coin h3 {
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 70px;
+    text-align: left;
+    color: #fff;
+    margin-bottom: 11px;
+}
+.DarkTheme .coinDetaol {
+    display: flex;
+    justify-content: space-between;
+}
+.DarkTheme .coin img {
+    width: 118px;
+    height: 118px;
+    margin-bottom: 17px;
+}
+.DarkTheme .coinDetaol .detail p {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    text-align: left;
+    color: #fff;
+    opacity: 0.53;
+}
+.DarkTheme .coinDetaol .price {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.DarkTheme .coinDetaol .price p {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 23px;
+    text-align: right;
+    color: #fff;
+    margin-bottom: 5px !important;
+}
+.DarkTheme .centerButtonDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 63px;
+}
+.DarkTheme .centerButtonDiv button {
+    width: 227px;
+    height: 45px;
+    border-radius: 22.5px;
+    background: linear-gradient(
+        #176aff 0.1%,
+        #166dff 20.89%,
+        #1379ff 41.01%,
+        #0e8dff 60.88%,
+        #08a8ff 80.45%,
+        #00cbff 99.87%
+    );
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 17px;
+    text-align: center;
+    color: #fff;
+    border: none;
+}
+.DarkTheme .section3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 146.1px;
+}
+.DarkTheme .section3 .innerSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.DarkTheme .section3 .sec3Text h5 {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 25px;
+    color: #fff;
+    opacity: 0.39;
+    text-align: left;
+}
+.DarkTheme .section3 .sec3Text h2 {
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 60px;
+    text-align: left;
+    color: #fff;
+}
+.DarkTheme .section3 .sec3Text p {
+    font-family: Poppins;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: left;
+    color: #fff;
+}
+.DarkTheme .section3 .sec3Text button {
+    width: 293px;
+    height: 55px;
+    border-radius: 27.5px;
+    background: linear-gradient(
+        #176aff 0.1%,
+        #166dff 20.89%,
+        #1379ff 41.01%,
+        #0e8dff 60.88%,
+        #08a8ff 80.45%,
+        #00cbff 99.87%
+    );
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    border: none;
+}
+.DarkTheme .section4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 146.1px;
+}
+.DarkTheme .section4 .innerSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.DarkTheme .section4 .sec4Text h5 {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 25px;
+    color: #fff;
+    opacity: 0.39;
+    text-align: left;
+}
+.DarkTheme .section4 .sec4Text h2 {
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 60px;
+    text-align: left;
+    color: #fff;
+}
+.DarkTheme .section4 .sec4Text p {
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+    color: #fff;
+}
+.DarkTheme .section4 .sec4Text button {
+    width: 293px;
+    height: 55px;
+    border-radius: 27.5px;
+    background: linear-gradient(
+        #176aff 0.1%,
+        #166dff 20.89%,
+        #1379ff 41.01%,
+        #0e8dff 60.88%,
+        #08a8ff 80.45%,
+        #00cbff 99.87%
+    );
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    border: none;
+}
+.DarkTheme .section4 .imageDiv {
+    padding: 0px 13px;
+}
+.DarkTheme .section5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+.DarkTheme .section5 .innerSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.DarkTheme .section5 .percents {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px;
+}
+.DarkTheme .section5 .percents .up {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 25px;
+    text-align: left;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.DarkTheme .section5 .percents h2 {
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 90px;
+    text-align: left;
+    margin-bottom: 14px;
+    color: #fff;
+}
+.DarkTheme .section5 .percents .cryptos {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 25px;
+    text-align: left;
+    color: #fff;
+}
+.DarkTheme .section5 .percentsDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.DarkTheme .section6 {
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 151px;
+}
+.DarkTheme .section6 .sec6Links {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 150px 10px 182px;
+}
+.DarkTheme .section6 .sec6Links .rowDiv {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+}
+.DarkTheme .section6 .sec6Links .linkDiv {
+    width: 50%;
+}
+.DarkTheme .section6 .sec6Links .linkDiv h5,
+.DarkTheme .section6 .sec6Links .linkDiv p {
+    font-family: Poppins;
+    /* font-weight: bold;
+    */
+    font-size: 30px;
+    text-align: left;
+    color: #fff;
+}
+.DarkTheme .section7 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.DarkTheme .section7 .innerSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.DarkTheme .section7 .startTrade {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 62px;
+}
+.DarkTheme .section7 .startTrade h2 {
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 60px;
+    text-align: left;
+    color: #fff;
+    margin-bottom: 25px;
+}
+.DarkTheme .section7 .startTrade .registerBtn {
+    width: 376px;
+    height: 69px;
+    border-radius: 34.5px;
+    background: linear-gradient(
+        #176aff 0.1%,
+        #166dff 20.89%,
+        #1379ff 41.01%,
+        #0e8dff 60.88%,
+        #08a8ff 80.45%,
+        #00cbff 99.87%
+    );
+    font-family: Poppins;
+    font-weight: normal;
+    font-size: 25px;
+    text-align: left;
+    color: #fff;
+    text-align: center;
+    border: none;
+    margin-right: 47px;
+}
+.DarkTheme .section7 .startTrade .tradeBtn {
+    width: 376px;
+    height: 69px;
+    border-radius: 34.5px;
+    text-align: center;
+    background: #dadada;
+    border: 1px solid #707070;
+    font-family: Poppins;
+    font-weight: normal;
+    font-size: 25px;
+    text-align: left;
+    color: #343434;
+    text-align: center;
+    border: none;
+}
+.DarkTheme footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    margin-top: 89px;
+}
+.DarkTheme footer .innerFooter {
+    padding: 50px;
+}
+.DarkTheme footer .footerHeading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.DarkTheme footer .footerHeading img {
+    width: 249.93px;
+    height: 84px;
+}
+.DarkTheme footer .footerHeading h2 {
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 60px;
+    text-align: left;
+    color: #fff;
+}
+.DarkTheme .footerLinkDiv {
+    display: flex;
+    /* align-items: center;
+    */
+    justify-content: space-between;
+    margin-top: 105px;
+}
+.DarkTheme .footerLinkDiv h2 {
+    font-family: Poppins;
+    font-size: 29px;
+    text-align: left;
+    color: #fff !important;
+}
+.DarkTheme .footerLinkDiv a {
+    font-family: Poppins;
+    font-size: 25px;
+    text-align: left;
+    color: #fff !important;
+}
+.DarkTheme .footerLinkDiv .linkDiv {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    */
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1500px) {
+    .DarkTheme {
+        background-color: #161616 !important;
+    }
+    .DarkTheme .containDiv {
+        max-width: unset !important;
+        width: 100%;
+        padding: 0px 30px;
+    }
+    .DarkTheme .section1 .sec1Text h2,
+    .DarkTheme .section2 h2,
+    .DarkTheme .section3 .sec3Text h2,
+    .DarkTheme .section4 .sec4Text h2,
+    .DarkTheme .section7 .startTrade h2,
+    .DarkTheme .footerHeading h2 {
+        font-size: 46px !important;
+        line-height: 60px !important;
+    }
+    .DarkTheme .section1 .sec1Text p {
+        font-size: 15px;
+    }
+    .DarkTheme .section1 .sec1Text button {
+        width: 213px;
+        height: 43px;
+        font-size: 18px;
+    }
+    .DarkTheme .section1 .sec1Text {
+        padding: 0px 82px 0px 0px;
+    }
+    .DarkTheme .sec1Image img {
+        width: 566px;
+    }
+    .DarkTheme .section2 .innerSection .smallheading {
+        font-size: 16px;
+    }
+    .DarkTheme .section2 .sec2Des {
+        font-size: 21px;
+    }
+    .DarkTheme .coin img {
+        width: 68px;
+        height: 68px;
+        margin-bottom: 17px;
+    }
+    .DarkTheme .coin h3 {
+        font-size: 40px;
+        margin-bottom: 4px;
+        line-height: 40px;
+    }
+    .DarkTheme .coinDetaol .detail p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .DarkTheme .coinDetaol .price p {
+        font-size: 15px;
+        line-height: 19px;
+    }
+    .DarkTheme .coinDetaol .price svg {
+        width: 17px;
+    }
+    .DarkTheme .coinMainDiv {
+        padding: 0px 90px;
+    }
+    .DarkTheme .section3 .sec3Text h5 {
+        font-size: 21px;
+    }
+    .DarkTheme .section3 .sec3Text p {
+        font-size: 16px;
+    }
+    .DarkTheme .section3 .sec3Text button {
+        width: 263px;
+        height: 49px;
+        font-size: 16px;
+    }
+    .DarkTheme .sec3Image {
+        width: 522px;
+    }
+    .DarkTheme .sec3Image img {
+        width: 100%;
+    }
+    .DarkTheme .section4 .sec4Text h5 {
+        font-size: 21px;
+    }
+    .DarkTheme .section4 .sec4Text p {
+        font-size: 16px;
+    }
+    .DarkTheme .section4 .sec4Text button {
+        width: 263px;
+        height: 49px;
+        font-size: 16px;
+    }
+    .DarkTheme .sec4Image {
+        width: 522px;
+    }
+    .DarkTheme .sec4Image img {
+        width: 100%;
+    }
+    .DarkTheme .section5 .percents .up {
+        font-size: 15px;
+        margin: 5px;
+    }
+    .DarkTheme .section5 .innerSection {
+        padding: 0px 90px;
+    }
+    .DarkTheme .section5 .percents h2 {
+        font-size: 60px;
+        margin: 4px;
+    }
+    .DarkTheme .section5 .percents .cryptos {
+        font-size: 21px;
+    }
+    .DarkTheme .percentsDiv svg {
+        width: 30px;
+    }
+    .DarkTheme .section6 .sec6Links {
+        padding: 100px 40px;
+    }
+    .DarkTheme .section6 .sec6Links .linkDiv h5,
+    .DarkTheme .section6 .sec6Links .linkDiv p {
+        font-size: 20px;
+    }
+    .DarkTheme .sec6Image img {
+        width: 680px;
+    }
+    .DarkTheme .section7 .startTrade .registerBtn,
+    .DarkTheme .section7 .startTrade .tradeBtn {
+        width: 256px;
+        height: 55px;
+        font-size: 20px;
+    }
+    .DarkTheme .footerLinkDiv h2 {
+        font-size: 23px;
+    }
+    .DarkTheme .footerLinkDiv a {
+        font-size: 17px;
+    }
+    .DarkTheme footer .footerHeading img {
+        width: 199.93px;
+        height: auto;
+    }
+    .DarkTheme .section6 .innerSection {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .DarkTheme .sec6Links {
+        width: 80%;
+    }
+    .DarkTheme .navbar .nav-item {
+        margin-left: 34px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .DarkTheme .section1 .innerSection {
+        flex-direction: column-reverse;
+    }
+    .DarkTheme .sec1Image img {
+        width: 100%;
+    }
+    .DarkTheme .section5 .innerSection {
+        flex-direction: column;
+    }
+    .DarkTheme .section5 .percents .cryptos {
+        text-align: center;
+    }
+    .DarkTheme .sec6Image img {
+        width: 100%;
+    }
+    .DarkTheme footer .footerHeading {
+        flex-direction: column;
+    }
+    .DarkTheme .footerLinkDiv {
+        flex-wrap: wrap;
+    }
+    .DarkTheme .section1 .sec1Text {
+        padding: 0px;
+    }
+    .DarkTheme .section1 .sec1Text h2,
+    .DarkTheme .section2 h2,
+    .DarkTheme .section3 .sec3Text h2,
+    .DarkTheme .section4 .sec4Text h2,
+    .DarkTheme .section7 .startTrade h2,
+    .DarkTheme .footerHeading h2 {
+        text-align: center !important;
+        font-size: 31px !important;
+        line-height: 36px !important;
+        margin-top: 20px;
+    }
+    .DarkTheme .section1 .sec1Text p {
+        text-align: center;
+    }
+    .DarkTheme .sec1Text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .DarkTheme .section2 {
+        margin-top: 48px;
+    }
+    .DarkTheme .coinMainDiv {
+        flex-wrap: wrap;
+        padding: 0px;
+    }
+    .DarkTheme .coinDiv {
+        width: 43%;
+        padding: 0px;
+        margin: 10px;
+    }
+    .DarkTheme .coin {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .DarkTheme .section3 {
+        margin-top: 66px;
+    }
+    .DarkTheme .section3 .innerSection {
+        flex-direction: column-reverse;
+    }
+    .DarkTheme .sec3Image {
+        width: 100%;
+    }
+    .DarkTheme .section3 .sec3Text,
+    .DarkTheme .sec4Text {
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        /* align-items: center;
+        */
+    }
+    .DarkTheme .section3 .sec3Text h5 {
+        text-align: center;
+    }
+    .DarkTheme .section3 .sec3Text p {
+        text-align: center;
+    }
+    .DarkTheme .section4 {
+        margin-top: 66px;
+    }
+    .DarkTheme .section4 .innerSection {
+        flex-direction: column;
+    }
+    .DarkTheme .section4 .sec4Image {
+        width: 100%;
+    }
+    .DarkTheme .sec4Text p {
+        text-align: center !important;
+    }
+    .DarkTheme .section5 .innerSection {
+        padding: auto !important;
+    }
+    .DarkTheme .section6 .sec6Links {
+        padding: 40px 0px !important;
+        width: 100%;
+    }
+    .DarkTheme .section6 .sec6Links .rowDiv {
+        align-items: flex-start !important;
+    }
+    .DarkTheme .section6 .sec6Links .linkDiv h5,
+    .DarkTheme .section6 .sec6Links .linkDiv p {
+        font-size: 15px;
+    }
+    .DarkTheme .tradeBtnDiv {
+        display: flex;
+    }
+    .DarkTheme .section7 .startTrade .registerBtn {
+        margin-right: 7px;
+    }
+    .DarkTheme .section7 .startTrade .registerBtn,
+    .DarkTheme .section7 .startTrade .tradeBtn {
+        width: 156px;
+        height: 45px;
+        font-size: 16px;
+    }
+    .DarkTheme .section6 {
+        margin-top: 60px;
+    }
+    .DarkTheme footer .footerHeading img {
+        width: 160px;
+    }
+    .DarkTheme footer .innerFooter {
+        padding: 50px 30px;
+    }
+    .DarkTheme footer .innerFooter {
+        padding: 50px 20px;
+    }
+    .DarkTheme .footerLinkDiv .linkDiv {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    .DarkTheme .nav-item.Login {
+        margin-left: 23px;
+        margin-bottom: 10px;
+    }
+    .DarkTheme .navbar-text {
+        justify-content: flex-start;
+    }
+    .DarkTheme .container-fluid.containDiv {
+        padding: 0px;
+    }
+    .DarkTheme .navbar-light .navbar-text {
+        box-shadow: 0px 29px 25px -37px black;
+    }
+    .DarkTheme .navbar-toggler.collapsed {
+        margin-right: 10px;
+    }
+    .DarkTheme .navbar-brand {
+        padding: 10px;
+    }
 }

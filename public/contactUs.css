@@ -1,0 +1,208 @@
+.contactUsPage .contactSec1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contactUsPage .contactSec1 .innerSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contactSec1 .appBtn {
+    width: 270px;
+}
+.contactSec1 .appBtn img:first-child {
+    margin-bottom: 13.7px;
+}
+.contactSec1 .sec1Text h2 {
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 60px;
+    /* line-height: 18px; */
+    text-align: left;
+    color: #2e2e2e;
+}
+.contactSec1 .sec1Text p {
+    font-family: Poppins;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: left;
+    color: #2e2e2e;
+    opacity: 0.55;
+}
+.contactSec1 .sec1Image {
+    margin-right: 160px;
+}
+.contactSec2 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 117px;
+}
+.contactSec2 .innerSection {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.contactSec2 .sec2Text h5 {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    color: #2e2e2e;
+    opacity: 0.55;
+}
+.contactSec2 .sec2Text h2 {
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+    color: #2e2e2e;
+}
+.contactSec2 .sec2Text p {
+    font-family: Poppins;
+    font-weight: normal;
+    font-size: 30px;
+    text-align: center;
+    color: #2e2e2e;
+    opacity: 0.55;
+}
+
+.contactUsPage .contactSec3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 79.1px;
+    margin-bottom: 155px;
+}
+.contactUsPage .contactSec3 .innerSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contactSec3 .appBtn {
+    width: 270px;
+}
+.contactSec3 .appBtn img:first-child {
+    margin-bottom: 13.7px;
+}
+.contactSec3 .sec3Text h2 {
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 60px;
+    /* line-height: 18px; */
+    text-align: left;
+    color: #2e2e2e;
+}
+.contactSec3 .sec3Text p {
+    font-family: Poppins;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: left;
+    color: #2e2e2e;
+    opacity: 0.55;
+}
+/* 
+.contactSec3 .sec3Image{
+    margin-right: 160px;
+} */
+.contactSec3 .sec3Text button {
+    width: 305px;
+    height: 57px;
+    border-radius: 28.5px;
+    background: linear-gradient(
+        #176aff 0.1%,
+        #166dff 20.89%,
+        #1379ff 41.01%,
+        #0e8dff 60.88%,
+        #08a8ff 80.45%,
+        #00cbff 99.87%
+    );
+    color: white;
+    border: none;
+}
+@media screen and (max-width: 1500px) {
+    .contactSec1 .sec1Text h2,
+    .contactSec2 .sec2Text h2,
+    .contactSec3 .sec3Text h2 {
+        font-size: 46px !important;
+        line-height: 60px !important;
+    }
+    .contactSec2 .sec2Text p {
+        font-size: 21px;
+    }
+    .contactSec2 .sec2Text h5 {
+        font-size: 16px;
+    }
+    .contactSec2 .sec2Image {
+        width: 1000px;
+        margin: 0 auto;
+    }
+    .contactSec2 .sec2Image img {
+        width: 100%;
+    }
+    .contactSec1 .sec1Image {
+        width: 352px;
+    }
+    .contactSec1 .sec1Image img {
+        width: 100%;
+    }
+    .contactSec1 .appBtn {
+        width: 190px;
+    }
+    .contactSec1 .appBtn img {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .contactSec1 .innerSection {
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .contactSec1 .sec1Image,
+    .contactSec2 .sec2Image {
+        width: 100%;
+        margin: 0px;
+    }
+    .contactSec1 .sec1Text h2,
+    .contactSec1 .sec1Text p,
+    .contactSec1 .sec1Text h2,
+    .contactSec3 .sec3Text p,
+    .contactSec3 .sec3Text h2 {
+        text-align: center;
+    }
+    .contactSec1 .sec1Text h2,
+    .contactSec2 .sec2Text h2,
+    .contactSec3 .sec3Text h2 {
+        text-align: center !important;
+        font-size: 31px !important;
+        line-height: 36px !important;
+        margin-top: 20px;
+    }
+    .contactSec1 .sec1Text p,
+    .contactSec2 .sec2Text p,
+    .contactSec3 .sec3Text p {
+        font-size: 15px;
+    }
+    .contactSec2 .sec2Text h5 {
+        font-size: 16px;
+    }
+    .contactSec3 .sec3Text button {
+        width: 213px;
+        height: 43px;
+        font-size: 18px;
+    }
+    .contactSec3 .sec3Image{
+        flex-direction: column-reverse;
+    }
+    .contactSec3 .sec3Text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column
+        
+    }
+}

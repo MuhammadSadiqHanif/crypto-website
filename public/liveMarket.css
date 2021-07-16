@@ -1,0 +1,66 @@
+.marketPlace {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 73px;
+}
+.marketPlace .innerMarket h2 {
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 18px;
+    text-align: center;
+    color: #2e2e2e;
+}
+.marketPlace .stockRate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 56px;
+}
+.marketPlace .stockRate img {
+    margin: 15px;
+    transform: translateZ(1px);
+}
+.marketPlace .coinMainDiv {
+    flex-wrap: wrap;
+}
+.marketPlace .divCoin {
+    width: 25%;
+    margin-bottom: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.marketPlace .coinDiv {
+    width: 60%;
+}
+
+@media screen and (max-width: 600px) {
+    .marketPlace .stockRate .stockImage {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .marketPlace .stockRate .stockImage img {
+        width: 100%;
+    }
+    .marketPlace h2 {
+        font-size: 46px !important;
+        line-height: 60px !important;
+    }
+    .marketPlace .divCoin {
+        width: 50%;
+    }
+    .marketPlace .containDiv{
+        padding: 0px 0px !important;
+    }
+    .marketPlace .coinDiv{
+        width: 80%;
+    }
+    .marketPlace .coinMainDiv{
+        margin-top: 30px;
+    }
+}

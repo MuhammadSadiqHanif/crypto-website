@@ -1,0 +1,68 @@
+@font-face {
+    font-family: Poppins-SemiBold;
+    src: url(./font/Poppins/Poppins-SemiBold.ttf);
+}
+@font-face {
+    font-family: Poppins-Regular;
+    src: url(./font/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(./font/Roboto/Roboto-Bold.ttf);
+}
+
+.workSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 178px;
+}
+.workSection .innerWorkSection.containDiv {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    padding: 0px 60px;
+}
+.workSection .rowRev {
+    flex-direction: row-reverse;
+}
+.workSection h2 {
+    font-family: Roboto-Bold;
+    font-weight: normal;
+    font-size: 79px;
+    line-height: 95px;
+    text-align: left;
+    color: #2e2e2e;
+}
+.workSection p {
+    font-family: Poppins-Regular;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: left;
+    color: #2e2e2e;
+}
+.workSection .workText {
+    margin-left: 54px;
+}
+
+.workSection .rowRev .workText {
+    margin-right: 54px;
+    margin-left: 0px;
+}
+
+@media screen and (max-width: 1500px) {
+    .workSection h2 {
+        font-size: 46px !important;
+        line-height: 60px !important;
+    }
+    .workSection p {
+        font-size: 21px;
+    }
+    .workSection .workImage img {
+        width: 100%;
+    }
+    .workSection .workImage {
+        width: 80%;
+    }
+}
